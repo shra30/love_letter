@@ -1,0 +1,97 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Layout */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f3f2;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #ff99cc;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  /* Love letter form */
+  .letter-form {
+    background-color: #ffffff;
+    border: 1px solid #ff66b2;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ff66b2;
+    font-size: 16px;
+    resize: none;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ff66b2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff3385;
+  }
+  
+  /* Love letters list */
+  .letters {
+    margin-top: 30px;
+  }
+  
+  #lettersList {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ff66b2;
+    max-height: 400px;
+    overflow-y: auto;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .letter {
+    background-color: #ffeff6;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #555;
+  }
+  
